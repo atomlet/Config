@@ -1,0 +1,21 @@
+inherits = "dark_plus"
+
+"ui.background"              = { fg = "light_gray" }
+"ui.window"                  = {}
+"ui.popup"                   = { fg = "text" }
+"ui.help"                    = { fg = "text" }
+"ui.menu"                    = { fg = "text" }
+
+"ui.cursor.match"            = { modifiers = ["underlined"] }
+"ui.selection"               = {}
+"ui.cursorline.primary"      = {}
+
+"ui.statusline.inactive"     = { fg = "white" }
+"ui.statusline.insert"       = { fg = "white" }
+"ui.statusline.select"       = { fg = "white" }
+"ui.bufferline"              = { fg = "text" }
+"ui.bufferline.active"       = { fg = "white" }
+"ui.bufferline.background"   = {}
+
+"ui.virtual.ruler"           = {}
+"ui.highlight.frameline"     = {}

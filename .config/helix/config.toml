@@ -1,0 +1,35 @@
+theme = "dark_plus_transparent"
+
+[editor]
+line-number = "relative"
+true-color = true
+
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[keys.normal]
+"C-s" = ":w"
+"C-q" = ":q"
+"y"   = "yank_to_clipboard"
+"Y"   = "yank_main_selection_to_clipboard"
+"P"   = "paste_clipboard_after"
+"p"   = "paste_clipboard_before"
+
+[keys.insert]
+"C-n" = "normal_mode"
+"C-i" = "insert_mode"
+"C-s" = "select_mode"
+"C-left" = "move_prev_word_start"
+"C-right" = "move_next_word_start"
+"S-left" = "goto_line_end"
+"S-right" = "goto_line_start"
+"C-backspace" = "delete_selection"
+"C-u" = "undo"
+
+[keys.select]
+"y"   = "yank_to_clipboard"
+"Y"   = "yank_main_selection_to_clipboard"
+"P"   = "paste_clipboard_after"
+"p"   = "paste_clipboard_before"
